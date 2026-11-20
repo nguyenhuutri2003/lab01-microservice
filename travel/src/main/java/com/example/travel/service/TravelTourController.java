@@ -1,7 +1,10 @@
+
 package com.example.travel.service;
+
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/tours")
 public class TravelTourController {
